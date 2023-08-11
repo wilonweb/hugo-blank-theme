@@ -5,7 +5,7 @@ theme = 'sandbox'
 
 [[menu.main]]
   name = "A propos"
-  url = "/a-propos"
+  url = "/about"
 
 [[menu.main]]
   name = "Blog"
