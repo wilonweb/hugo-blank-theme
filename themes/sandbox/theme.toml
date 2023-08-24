@@ -19,3 +19,7 @@ min_version = "0.41.0"
   name = ""
   homepage = ""
   repo = ""
+  
+[params]
+  author = "Alex"
+  authorImage = "/images/avatar-musk.jpg"

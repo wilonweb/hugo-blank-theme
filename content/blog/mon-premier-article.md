@@ -2,6 +2,8 @@
 title: "Mon Premier Article"
 date: 2023-08-08T22:42:03+02:00
 draft: false
+images: ["/images/blog/enfantDuRetro.jpg"]
+categories: ["Blogging", "Développement web"]
 ---
 
 # Niveau de titre H1

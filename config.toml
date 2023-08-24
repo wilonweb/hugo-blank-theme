@@ -3,13 +3,20 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'sandbox'
 
+paginate = 2
+
+
 [[menu.main]]
   name = "A propos"
-  url = "/about"
+  url = "/a-propos"
 
 [[menu.main]]
   name = "Blog"
   url = "/blog"
+  
+[[menu.main]]
+    name = "Contact"
+    url = "/contact"  
   
 [[menu.social]]
 name = "GitHub"
@@ -23,8 +30,14 @@ pre = "<i class='fab fa-twitter'></i>"
 
 [[menu.footer]]
 name = "A propos"
-url = "/about"
+url = "/a-propos"
 
 [[menu.footer]]
 name = "Protection des données"
 url = "/protection-des-donnees"
+
+[params]
+    author = "Alex"
+    authorImage = "/images/avatar-musk.jpg"
+
+
