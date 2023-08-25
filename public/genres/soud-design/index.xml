@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>soud-design on My New Hugo Site</title>
+    <link>http://example.org/genres/soud-design/</link>
+    <description>Recent content in soud-design on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Aug 2023 13:27:48 +0200</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test</title>
-      <link>http://example.org/tutos/test/</link>
-      <pubDate>Fri, 25 Aug 2023 13:53:13 +0200</pubDate>
-      
-      <guid>http://example.org/tutos/test/</guid>
-      <description>dfdjdflfdjdlfj Hi every body</description>
-    </item>
-    
+    <lastBuildDate>Wed, 23 Aug 2023 19:13:06 +0200</lastBuildDate><atom:link href="http://example.org/genres/soud-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello You</title>
       <link>http://example.org/blog/hello-you/</link>
@@ -26,30 +17,12 @@
     </item>
     
     <item>
-      <title>Contact</title>
-      <link>http://example.org/contact/</link>
-      <pubDate>Wed, 23 Aug 2023 18:47:05 +0200</pubDate>
-      
-      <guid>http://example.org/contact/</guid>
-      <description>Me Contacter </description>
-    </item>
-    
-    <item>
       <title>Mon Second Article</title>
       <link>http://example.org/blog/mon-second-article/</link>
       <pubDate>Fri, 11 Aug 2023 17:45:55 +0200</pubDate>
       
       <guid>http://example.org/blog/mon-second-article/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis est eget magna dapibus gravida id at felis. Vestibulum semper eget mi in pulvinar. Nullam urna ipsum, viverra quis erat sit amet, ultrices efficitur sem. Etiam tincidunt porttitor tellus at laoreet. Vivamus vehicula leo eu nisl iaculis, sit amet interdum mi convallis. Donec et felis fermentum, ullamcorper odio nec, vestibulum enim. Praesent ut dui auctor, pellentesque mi eu, interdum lectus. Suspendisse varius porttitor vehicula.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://example.org/about/</link>
-      <pubDate>Thu, 10 Aug 2023 10:57:34 +0200</pubDate>
-      
-      <guid>http://example.org/about/</guid>
-      <description>how are you</description>
     </item>
     
     <item>
@@ -65,15 +38,6 @@ Voici un exemple de liste :
 Yaourts Crème fraiche Saucisson On peut également créer des listes ordonnées :
 Bière Whisky Single Malt Et on peut aussi créer des tableaux (c&amp;rsquo;est magique le markdown)
 Colonne 1 Colonne 2 Colonne 3 J&#39; aime Les tableaux C&amp;rsquo;est du contenu </description>
-    </item>
-    
-    <item>
-      <title>A Propos</title>
-      <link>http://example.org/a-propos/</link>
-      <pubDate>Wed, 08 Apr 2020 11:15:50 +0200</pubDate>
-      
-      <guid>http://example.org/a-propos/</guid>
-      <description>A propos de ce super site Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et urna a odio consectetur sollicitudin id eu massa. Donec ante eros, dignissim ut iaculis vel, dignissim in eros. Aliquam massa elit, viverra nec eros sit amet, dapibus suscipit nibh. Aliquam egestas congue nulla et lobortis. Curabitur pellentesque dignissim neque ac egestas. Etiam eu risus non est scelerisque cursus. Nullam ullamcorper massa nec rutrum placerat. Aenean dignissim mi vel tellus ornare, in commodo tellus ultricies.</description>
     </item>
     
   </channel>
