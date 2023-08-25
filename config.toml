@@ -49,5 +49,34 @@ url = "/protection-des-donnees"
 [params]
     author = "Alex"
     authorImage = "/images/avatar-musk.jpg"
+    mainSections = ["tutos","blog"]
+
+
+# Déclaration des taxonomie
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  genre = 'genres'
+
+# fonction de mise en relation
+[related]
+    threshold = 80 
+    includeNewer = true
+    toLower = true
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+
+# Ajout du unsafe mode dans config.toml pour ajouter du html dans le markdown
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+            
 
 
