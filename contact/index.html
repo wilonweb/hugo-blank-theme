@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href='/css/style.css' /><body><header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo">
+                        <h1 class="title is-5">My New Hugo Site</h1>
+                    </span>
+                </a>
+                
+                <a href="https://github.com/VotreCompteGithub" class="navbar-item is-hidden-desktop" title="GitHub"><span class="icon"><i class='fab fa-github'></i></span></a>
+                
+                <a href="https://twitter.com/VotreCompteTwitter" class="navbar-item is-hidden-desktop" title="Twitter"><span class="icon"><i class='fab fa-twitter'></i></span></a>
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    
+                    <a href="/a-propos" class="navbar-item">A propos</a>
+                    
+                    <a href="/blog" class="navbar-item">Blog</a>
+                    
+                    <a href="/categories" class="navbar-item">categories</a>
+                    
+                    <a href="/contact" class="navbar-item">Contact</a>
+                    
+                </div>
+                <div class="navbar-end">
+                    
+                    <a href="https://github.com/VotreCompteGithub" class="navbar-item is-hidden-touch" title="GitHub"><span class="icon"><i class='fab fa-github'></i></span></a>
+                    
+                    <a href="https://twitter.com/VotreCompteTwitter" class="navbar-item is-hidden-touch" title="Twitter"><span class="icon"><i class='fab fa-twitter'></i></span></a>
+                    
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <script>
+        $(document).ready(function () {
+            $(".navbar-burger").click(function () {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            })
+        })
+    </script>
+</header><div id="content">
+
+
+<style>
+    .contact-form {
+        width: 640px;
+        height: 960px;
+        overflow: scroll;
+    }
+</style>
+<div class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content" style="overflow: auto!important; -webkit-overflow-scrolling: touch!important;">
+        <iframe class="contact-form" src="https://docs.google.com/forms/d/e/1FAIpQLSfN4NpB4JzSiWaIuGysoRxncJxLM9OY7q6LO4UogAF8BUntew/viewform?usp=sf_link" width="640" height="1019" frameborder="0" marginheight="0"
+            marginwidth="0">Loading...</iframe>
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+</div>
+<script>
+    document.querySelector('a#open-modal').addEventListener('click', function (event) {
+        event.preventDefault();
+        var modal = document.querySelector('.modal');
+        var html = document.querySelector('html');
+        modal.classList.add('is-active');
+        html.classList.add('is-clipped');
+
+
+        var close = (e) => {
+            e.preventDefault();
+            modal.classList.remove('is-active');
+            html.classList.remove('is-clipped');
+        }
+        modal.querySelector('.modal-background').addEventListener('click', close);
+        modal.querySelector('.modal-close').addEventListener('click', close);
+    });
+</script>
+
+
+<style>
+    @media screen and (max-width: 768px) {
+        li>a>span:not(.icon) {
+            visibility: hidden;
+            position: absolute;
+        }
+
+        nav.tabs li {
+            -webkit-box-flex: 0;
+            -ms-flex-positive: 0;
+            flex-grow: 0;
+            -ms-flex-negative: 1;
+            flex-shrink: 1;
+        }
+
+        .tabs .icon {
+            margin-left: 0.5em;
+        }
+    }
+</style>
+
+<div class="hero is-dark is-medium" 
+    style="background: url(/images/contact.jpg) center center; background-size:cover;" >
+    <div class="hero-head">
+        <div class="container">
+            <h1 class="title is-2 has-background-primary narrow-background">
+                Contact
+            </h1>
+            
+        </div>
+    </div>
+    <div class="hero-body"></div>
+    <div class="hero-foot">
+        
+        <nav class="tabs">
+            <div class="container">
+                <ul>
+                    
+                    <li>
+                        <a class="has-background-primary"  href="tel:555555555" >
+                            <span class="icon"><i class="fas fa-phone" aria-hidden="true"></i></span>
+                            <span>Phone</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a class="has-background-primary" id="open-modal"  >
+                            <span class="icon"><i class="fas fa-envelope" aria-hidden="true"></i></span>
+                            <span>Contact form</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+        
+    </div>
+</div>
+
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <div class="content">
+                    <h2 id="me-contacter">Me Contacter</h2>
+55
+                </div>
+            </div>
+            
+            <div class="column is-one-third">
+                <div class="map-responsive">
+                    <iframe
+                        src="https://maps.google.com/maps?hl=en&amp;q=Rouen%2c%20France&amp;ie=UTF8&amp;t=&amp;z=15&amp;iwloc=B&amp;output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+    </div><footer class="footer">
+    <div class="container">
+        <div class="columns has-text-centered">
+            
+            <div class="column is-narrow">
+                <a href="/a-propos" class="">A propos</a>
+            </div>
+            
+            <div class="column is-narrow">
+                <a href="/protection-des-donnees" class="">Protection des données</a>
+            </div>
+            
+        </div>
+    </div>
+</footer></body>
+
+</html>
