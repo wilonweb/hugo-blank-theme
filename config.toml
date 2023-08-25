@@ -17,6 +17,10 @@ paginate = 2
 [[menu.main]]
   name = "categories"
   url = "/categories"  
+  
+[[menu.main]]
+  name = "genres"
+  url = "/genres"  
  
   
 [[menu.main]]
@@ -40,6 +44,7 @@ url = "/a-propos"
 [[menu.footer]]
 name = "Protection des données"
 url = "/protection-des-donnees"
+
 
 [params]
     author = "Alex"
