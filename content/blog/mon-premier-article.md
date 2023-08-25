@@ -3,7 +3,8 @@ title: "Mon Premier Article"
 date: 2023-08-08T22:42:03+02:00
 draft: false
 images: ["/images/blog/enfantDuRetro.jpg"]
-categories: ["Blogging", "Développement web"]
+categories: ["Blogging", "test", "cool"]
+genres: ["techno", "soud-design"]
 ---
 
 # Niveau de titre H1
